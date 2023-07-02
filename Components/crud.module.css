@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#nav>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+#createusers,#users{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(32, 32, 69);
+    
+}
+#createusers{
+    height: 80vh;
+}
+#users{
+    height: fit-content;
+    padding: 20px;
+}
+#create{
+    width: 20%;
+    height: 380px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px white;
+}
+#usersbox{
+    width: 20%;
+    height: 380px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    box-shadow: 0px 0px 9px white;
+}
+#usersbox{
+    margin: 17px;
+}
+
+#create>input{
+    margin-top: 20px;
+    color: white;
+    border-bottom: 2px solid white;
+    background-color: black;
+    border-top:none ;
+    border-left:none ;
+    border-right:none ;
+    height: 25px;
+    outline: none;
+    width: 60%;
+}
+#create>button{
+    margin-top: 20px;
+    border: 2px solid black;
+    width:90px;
+    height: 30px;
+    background-color: black;
+    box-shadow: 0px 0px 2px white;
+    font-size: 20px;
+    color: white;
+    /* border-radius: 5px; */
+}
+#usersbox>div>button,#usersbtn>a{
+    margin-top: 20px;
+    border: 1px solid black;
+    width:90px;
+    height: 30px;
+    background-color: black;
+    box-shadow: 0px 0px 2px white;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 5px; */
+}
+#create>button:hover,#usersbox>div>button:hover,#usersbox>div>a:hover{
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid black;
+}
+::placeholder{
+    color: white;
+}
+
+
+#usersbox>div>h4{
+    /* margin-top: 20px; */
+    color: white;
+    font-size: 20px;
+    /* background-color: aquamarine; */
+}
+#usersbox>div>p {
+    /* display: inline-block; */
+    font-size: 15px;
+    color: coral;
+    margin-left: 15px;
+}
+#usersbox>div{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+}
+#usersbox>#usersbtn{
+    height: 20%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
